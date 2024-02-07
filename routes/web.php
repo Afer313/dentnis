@@ -15,7 +15,7 @@ use App\Http\Controllers\LangController;
 |
 */
 
-Route::middleware('SetLanguage')->group(function () {
+Route::middleware('SetLanguage')->prefix('dentnis')->group(function () {
     Route::get('/',[\App\Http\Controllers\MainController::class, 'index'])->name('home');
     Route::get('/change-language/{locale}', [LangController::class, 'changeLanguage'])->name('change_language');
     Route::get('/dr-abdulkadir-narin',[\App\Http\Controllers\MainController::class, 'abdul'])->name('abdul');
@@ -25,7 +25,7 @@ Route::middleware('SetLanguage')->group(function () {
     Route::get('/blog',[\App\Http\Controllers\MainController::class, 'blog'])->name('blog');
 });
 
-Route::middleware('AdminMiddleware')->prefix('admin')->group(function (){
+Route::middleware('AdminMiddleware')->prefix('dentnis')->prefix('/admin')->group(function (){
     Route::get('/', [AdminController::class, 'index']);
     Route::get('logout',[AdminController::class, 'logout'])->name('logout');
     Route::get('ContentUpdateGet/{id}', [AdminController::class,'ContentUpdateGet'])->name('ContentUpdateGet');
@@ -42,7 +42,7 @@ Route::middleware('AdminMiddleware')->prefix('admin')->group(function (){
     Route::delete('deletePanel/{id}', [\App\Http\Controllers\PanelController::class,'deletePanel'])->name('deletePanel');
 });
 
-Route::get('sign_up',[AdminController::class, 'signUp'])->name('signUp');
-Route::post('sign_up',[AdminController::class, 'signUping']);
-Route::get('login',[AdminController::class, 'logIn'])->name('signIn');
-Route::post('login',[AdminController::class, 'logIning']);
+Route::prefix('dentnis')->get('sign_up',[AdminController::class, 'signUp'])->name('signUp');
+Route::prefix('dentnis')->post('sign_up',[AdminController::class, 'signUping']);
+Route::prefix('dentnis')->get('login',[AdminController::class, 'logIn'])->name('signIn');
+Route::prefix('dentnis')->post('login',[AdminController::class, 'logIning']);
