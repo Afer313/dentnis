@@ -1,0 +1,79 @@
+.main_keeper{
+    width: 100%;
+    height: 360px;
+    padding: 60px 0;
+    background: url('https://dentnis.com/wp-content/uploads/2019/12/dentnis-purple-background.jpg');
+    background-size: 100%;
+    background-position-y: -180px;
+    color: white;
+    position: relative;
+    padding: 120px 0 0 160px;
+}
+.main_keeper p {
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-family: Quicksand, Arial, Tahoma, sans-serif;
+}
+.main_keeper h1{
+    font-size: 30px;
+    margin-top: 10px;
+    width: 500px;
+    font-family:  Quicksand, Arial, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+.footer{
+    margin-top: 100px;
+}
+.preview_img{
+    width: 550px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.down{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+.down a:hover {
+    color:#23527C;
+    text-underline:#23527C;
+    text-decoration: underline!important;
+}
+.down a{
+    color: #337AB7;
+}
+.down h1{
+    color: #D14891;
+}
+.down h2{
+    color: #D14891;
+}
+.down h3{
+    color: #D14891;
+}
+.down h4{
+    color: #D14891;
+}
+.down h5{
+    color: #D14891;
+}
+.else{
+    margin-top: 100px;
+    background: #F7F7F7;
+    padding: 50px 100px;
+}
+.else h2{
+    color: #D14891;
+    font-size: 30px!important;
+    text-align: center;
+    font-family: Arial, serif;
+    margin-bottom: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}

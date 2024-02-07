@@ -1,0 +1,110 @@
+.main_container {
+    padding: 5% 5%;
+    display: flex;
+}
+body{
+    background: #FCFCFC;
+    font-family: Quicksand, Arial, Tahoma, sans-serif !important;
+}
+.left_container {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.left_container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left_container button{
+    width: 100%;
+    padding: 11px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 15px;
+    background: #A54A97;
+}
+
+.input_50 {
+    width: 48%;
+    height: 45px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #626262;
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(133, 133, 133,0.3);
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.02);
+    font-family: "Quicksand", Arial, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input_50:focus{
+    color: #1982C2;
+    background: #E9F5FC;
+}
+.input_100:focus{
+    background: #E9F5FC;
+    color: #1982C2;
+}
+.input_50::placeholder {
+    color: #929292;
+}
+.input_100::placeholder {
+    color: #929292;
+}
+
+.input_100 {
+    width: 100%;
+    font-weight: 400;
+    height: 45px;
+    padding: 5px 10px;
+    margin-top: 45px;
+    border-radius: 10px;
+    color: #626262;
+    background-color: rgba(255,255,255,1);
+    font-size: 16px;
+    border: 1px solid rgba(133, 133, 133,0.3);
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.02);
+}
+
+.right_container {
+    width: 50%;
+}
+.under_part{
+    padding: 5% 5%;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+.under_part a{
+    color: #DCC6C6;
+}
+.under_part a:hover{
+    text-underline: #DCC6C6;
+    text-decoration: underline!important;
+}
+.under_left{
+    background: #c64793;
+    color: white;
+    width: 65%;
+    border-radius: 10px;
+    padding: 40px 40px 25px 40px;
+}
+.under_right{
+    background: #c64793;
+    color: white;
+    width: 35%;
+    padding: 40px;
+    margin-left: 30px;
+    height: 235px;
+    border-radius: 10px;
+}
+.under_part h3{
+    line-height: 30px!important;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+.under_part p{
+    font-family: Arial, serif;
+    font-size: 18px!important;
+    margin-bottom: 20px;
+}

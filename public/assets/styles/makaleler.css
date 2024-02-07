@@ -1,0 +1,10 @@
+.blog{
+    width: 90%;
+    margin: 3% 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog_inner{
+    margin-left: 1%;
+    margin-top: 60px;
+}

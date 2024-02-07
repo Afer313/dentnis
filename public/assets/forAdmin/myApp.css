@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor:pointer;
+    border: 2px solid #4b49ac;
+}
+
+body {
+    margin: 0;
+    background: #4b49ac;
+}
+.static_menu {
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    background: #6394f3;
+    justify-content: space-evenly;
+}
+
+.menu {
+    width: 100%;
+    padding: 10px;
+    display: none;
+    background: #98bdff;
+    justify-content: space-evenly;
+}
+
+.menu_item {
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #6d69e1;
+    color: white;
+}
+
+.logoutBtn {
+    background: #4b49ac;
+    height: 100%;
+    padding: 2px 8px;
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nasock {
+    margin: 100px;
+    border-radius: 10px;
+    background: #98bdff;
+    padding: 40px;
+}
+
+.nasock {
+    display: none;
+}
+
+.nasock button {
+    border-radius: 10px;
+    font-size: 20px;
+    background: #4b49ac;
+    padding: 10px 30px;
+    color: white;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.holder h2 {
+    color: white;
+}
+
+.holder {
+    display: none;
+}
+
+.holder input {
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.post_for_edit {
+    width: 100%;
+    display: flex;
+    color: white;
+    background: #4b49ac;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+
+#page3 button {
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    font-size: 23px;
+}
+#page2::-webkit-scrollbar{
+    display: none;
+}
+.redBtn{
+    color: red!important;
+    cursor: pointer;
+}
+.main_img{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.menu_category{
+    width: 80%;
+}
+table{
+    width: 100%;
+}
+.theader{
+    font-weight: bolder!important;
+    font-size: 25px;
+}
+td{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 3px 5px;
+}
+
+.minForm{
+    display: none;
+}
+
+.minForm input {
+    padding: 5px 10px;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+}

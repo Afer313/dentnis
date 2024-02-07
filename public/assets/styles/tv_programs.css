@@ -1,0 +1,25 @@
+.tvProgs {
+    width: 90%;
+    margin: 3% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tvProgs .item {
+    width: 32%;
+    font-size: 19px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.item iframe{
+    width: 100%;
+    height: 280px;
+}
+.item p{
+    margin-top: 2px;
+    width: 100%;
+}
+.footerUp{
+    margin-top: 100px!important;
+}
